@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">MyChartDemo</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="tab_text_3">Tab 3</string>
+    <string name="app_name">CMPriceChartDemo</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dummy_line_data">{\"data\":[{\"date\":\"27/06/2016\",\"prices\":20500},{\"date\":\"28/06/2016\",\"prices\":20450},{\"date\":\"30/06/2016\",\"prices\":20350},{\"date\":\"31/06/2016\",\"prices\":20400},{\"date\":\"01/06/2016\",\"prices\":20450},{\"date\":\"02/06/2016\",\"prices\":20400},{\"date\":\"03/06/2016\",\"prices\":20350},{\"date\":\"04/06/2016\",\"prices\":20650},{\"date\":\"06/06/2016\",\"prices\":20650},{\"date\":\"07/06/2016\",\"prices\":20650},{\"date\":\"08/06/2016\",\"prices\":20750},{\"date\":\"09/06/2016\",\"prices\":20900},{\"date\":\"10/06/2016\",\"prices\":21050}], \"type\": 96.5, \"title\": \"line data\"}</string>
+    <string name="dummy_bar_data">{ \"error\":false, \"price1\":[ { \"price\":\"18250\", \"date\":\"15/Feb.\" }, { \"price\":\"18100\", \"date\":\"14/Feb.\" }, { \"price\":\"17970\", \"date\":\"13/Feb.\" }, { \"price\":\"18000\", \"date\":\"12/Feb.\" }, { \"price\":\"18450\", \"date\":\"11/Feb.\" }, { \"price\":\"18300\", \"date\":\"10/Feb.\" }, { \"price\":\"18000\", \"date\":\"9/Feb.\" }],\"price2\":[ { \"price\":\"18350\", \"date\":\"15/Mar.\" }, { \"price\":\"18400\", \"date\":\"14/Mar.\" }, { \"price\":\"17990\", \"date\":\"13/Mar.\" }, { \"price\":\"18200\", \"date\":\"12/Mar.\" }, { \"price\":\"18450\", \"date\":\"11/Mar.\" }, { \"price\":\"18500\", \"date\":\"10/Mar.\" }, { \"price\":\"18300\", \"date\":\"9/Mar.\" }] }</string>
+
 </resources>
