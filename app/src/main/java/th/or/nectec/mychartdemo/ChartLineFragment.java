@@ -10,11 +10,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.github.mikephil.charting.animation.Easing;
-import com.github.mikephil.charting.charts.BarChart;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.XAxis;
 import com.github.mikephil.charting.components.YAxis;
-import com.github.mikephil.charting.data.BarDataSet;
 import com.github.mikephil.charting.data.Entry;
 import com.github.mikephil.charting.data.LineData;
 import com.github.mikephil.charting.data.LineDataSet;
@@ -79,9 +77,10 @@ public class ChartLineFragment extends Fragment {
 
 
         // hide label in each orietation
-        mChart.getAxisLeft().setDrawLabels(true);
+        mChart.getAxisLeft().setDrawLabels(false);
         mChart.getAxisLeft().setTextColor(Color.parseColor("#57000000"));
-        mChart.getAxisRight().setDrawLabels(false);
+        mChart.getAxisRight().setDrawLabels(true);
+        mChart.getAxisRight().setTextColor(Color.parseColor("#57000000"));
         mChart.getXAxis().setDrawLabels(true);
         mChart.getXAxis().setTextColor(Color.parseColor("#57000000"));
         mChart.getXAxis().setPosition(XAxis.XAxisPosition.BOTTOM);
